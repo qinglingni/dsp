@@ -9,7 +9,16 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls #list directories and files under a given path
+mkdir #create new directory
+pwd #print working directory
+cd #change directory
+rm #delete files or empty directory
+rmdir #delete directory
+mv #move files or directory to different directory or use it to change file name
+cp #copy files
+cat #output file content to terminal
+> filename #redirect standard output to a file
 
 ---
 
@@ -24,15 +33,24 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+ls #list files and directories without details, does not list hidden files
+ls -a #list all files and directories including hidden files
+ls -l #list all contents in a directory in long form (have details about files and directories)
+ls -lh #show conetents in long form and sizes in human readable format
+ls -lah #show all contents including hidden files in long form and with sizes in human readable format
+ls -t #order files and directories by the time they were last modified
+ls -Glp #I don't know what G option does, but when I tried it, it seems to list content name in different color
 ---
 
 ###Q3.  More List Files in Unix  
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls -c #display files by file timestamp
+ls -d #display only directories
+ls -t #display newest files first
+ls -u #display files by file access time
+ls -l #display files in long format listing
 
 ---
 
@@ -40,7 +58,10 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+xargs #read items from the standard input, delimited by blanks, and executes the command
+example: batch delete files
+find /tmp -name core -type f -prnt | xargs /bin/rm -f
+
 
  
 
