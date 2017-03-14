@@ -83,12 +83,11 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 >> REPLACE THIS TEXT WITH YOUR RESPONSE
 
---
+I will most likely use nano when editing files in terminal because I'm used to it, but I might learn to use vim just to see if I can get used to it
 
 ### Q3. Graphical Editor
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I will use Pycharm just because I have been using it and like it. I haven't really learned the keyboard shortcuts yet
 
- 
