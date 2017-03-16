@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Both lists and tuples are ordered collections of values. Of course, the Python sytax is different as well. You use [] for list and () for tuples. The difference between the two are: 1. tuples are immutable, meaning you cannot change tupple, for example, you cannot replace element in tuples. Lists are mutable. 2. Tuples have structure, while lists have order. Tuples can be used as keys in dictionaries, because you cannot change the keys
 
 ---
 
@@ -20,7 +20,7 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Sets are a list of unique items and they are not ordered.The performance will be much better finding and element in lists because they are ordered.
 
 ---
 
@@ -28,15 +28,14 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
+Lambda is a rewrite of an function to a single line. Example: sorted(student_objects, key=lambda student: student.age)
 ---
 
 ### Q4. List Comprehension, Map &amp; Filter
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+List comprehension is basically a for loop. 
 
 ---
 
@@ -51,15 +50,25 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+937 days
+"""
+from datetime import datetime
 
+date_start ='01-02-2013'
+date_stop = '07-28-2015'
+
+date1 = datetime.strptime(date_stop,'%m-%d-%Y')
+date2 = datetime.strptime(date_start,'%m-%d-%Y')
+
+delta = date1-date2
+print (delta)
+"""
 b.  
 ```
 date_start = '12312013'  
 date_stop = '05282015'  
 ```
-
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+513 days """change the date format to without dash"""
 
 c.  
 ```
@@ -67,7 +76,7 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE  (answer will be in number of days)
+7850 days """change the format of month to %b"""
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
