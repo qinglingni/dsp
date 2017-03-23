@@ -18,7 +18,10 @@ def donuts(count):
     >>> donuts(99)
     'Number of donuts: many'
     """
-    raise NotImplementedError
+    if count >=10:
+        print ('many')
+    else:
+        print ('Number of donuts: {}'.format(count))
 
 
 def both_ends(s):
@@ -37,7 +40,12 @@ def both_ends(s):
     >>> both_ends('xyz')
     'xyyz'
     """
-    raise NotImplementedError
+    if len(s) < 2:
+        print ('')
+    else:
+        start = s[0:2]
+        end = s[len(s)-2:]
+        print (start+end)
 
 
 def fix_start(s):
@@ -56,8 +64,14 @@ def fix_start(s):
     >>> fix_start('donut')
     'donut'
     """
-    raise NotImplementedError
-
+    s = list(s)
+    for i in range(1,len(s)):
+        if s[i] != s[0]:
+            continue
+        else:
+            s[i] = '*'
+    print("".join(s))
+            
 
 def mix_up(a, b):
     """
@@ -74,8 +88,14 @@ def mix_up(a, b):
     >>> mix_up('pezzy', 'firm')
     'fizzy perm'
     """
-    raise NotImplementedError
-
+    a = list(a)
+    b = list(b)
+    if len(a)<2 or len(b)<2:
+        exit
+    else:
+        new_a = b[0:2]+a[2:len(a)+1]
+        new_b = a[0:2]+b[2:len(b)+1]
+        print ("".join(new_a) + ' ' + "".join(new_b))
 
 def verbing(s):
     """
@@ -91,7 +111,14 @@ def verbing(s):
     >>> verbing('do')
     'do'
     """
-    raise NotImplementedError
+    length = len(s)
+    if length < 3:
+        s = s
+        if s[length-3:] == 'ing':
+            s = s + 'ly'
+        else:
+            s = s + 'ing'
+    print s
 
 
 def not_bad(s):
@@ -111,7 +138,15 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
-    raise NotImplementedError
+    import re
+    
+    word_1 = 'not'
+    word_2 = 'bad'
+    if word_1 in s and word_2 in s and s.find(word_1)<s.find(word_2):
+        s = re.sub('not.*bad','good',s)
+    else:
+        s = s
+    print (s)
 
 
 def front_back(a, b):
@@ -130,4 +165,4 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
-    raise NotImplementedError
+    
