@@ -150,12 +150,10 @@ def not_bad(s):
 
 
 def split_str(s):
-    if len(s)%2 != 0:
-        s_front = s[0:len(s)//2+1]
-        s_back = s[len(s)//2+1:len(s)]
-    else:
-        s_front = s[0:len(s)//2]
-        s_back = s[len(s)//2+1:len(s)]
+    
+    extra = len(s)%2
+    s_front = s[0:len(s)//2+extra]
+    s_back = s[len(s)//2+extra:len(s)]
     
     return s_front, s_back
 
