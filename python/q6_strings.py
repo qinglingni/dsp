@@ -149,6 +149,16 @@ def not_bad(s):
     print (s)
 
 
+def split_str(s):
+    if len(s)%2 != 0:
+        s_front = s[0:len(s)//2+1]
+        s_back = s[len(s)//2+1:len(s)]
+    else:
+        s_front = s[0:len(s)//2]
+        s_back = s[len(s)//2+1:len(s)]
+    
+    return s_front, s_back
+
 def front_back(a, b):
     """
     Consider dividing a string into two halves. If the length is even,
@@ -165,4 +175,7 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
+    x = split_str(a)
+    y = split_str(b)
+    print (x[0]+y[0]+x[1]+y[1])
     
