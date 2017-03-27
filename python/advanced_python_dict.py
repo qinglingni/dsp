@@ -49,3 +49,28 @@ for k,v in faculty_dict.items():
     else:
         break
     n += 1
+
+professor_dict = {}
+
+for i in range(len(df_list)):
+    key = (df_list[i][3],df_list[i][4])
+    value = df_list[i][0:3]
+    if key not in professor_dict.keys():
+        professor_dict[key]=[value]
+    else:
+        professor_dict[key].append(value)
+
+n=0
+for k,v in professor_dict.items():
+    if n < 3:
+        print(k,v)
+    else:
+        break
+    n += 1
+
+# to make sure it's printing the dict by sorted last name
+sorted_key = sorted (professor_dict,key=lambda key : key[1])
+for i in range (len(sorted_key)):
+    key = sorted_key[i]
+    value = professor_dict[sorted_key[i]]
+    print (key,value)
