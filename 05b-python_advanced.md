@@ -17,7 +17,7 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 ### Part I - Regular Expressions  
 
 
-####Q1. Find how many different degrees there are, and their frequencies: Ex:  PhD, ScD, MD, MPH, BSEd, MS, JD, etc.
+#### Q1. Find how many different degrees there are, and their frequencies: Ex:  PhD, ScD, MD, MPH, BSEd, MS, JD, etc.
 
 >> 9 unique degrees
 PHD     31

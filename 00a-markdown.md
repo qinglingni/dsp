@@ -1,11 +1,21 @@
-##[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)  
+# [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)  
 
-###[What Is Markdown? 4 Reasons Why You Should Learn It Now](http://www.makeuseof.com/tag/markdown-4-reasons-learn-now/)  
-Markdown is a simple way to add formatting — like headers, bold/italic text, and lists — to plain text. Rather than relying on HTML or WYSIWYG editors, Markdown allows you to create full pages of formatted text without ever having to remove your fingers from the keyboard, and all in a way that’s much more intuitive than HTML.  
+## Objective
+- It is relevant to learn Markdown so the pre-work can be submitted in an easy-to-read format.  
+- During the bootcamp, you will create a blog on an open source tool and the blogs will be written in Markdown
+
+## Instructions
+Read this document and use the Markdown syntax to write up your pre-work solutions.
+
+## Deliverable
+Markdown syntax will be seen in subsequent pre-work file submissions.  
+**Important:**  Look at your rendered markdown file before submitting!  :boom:  
 
 ---
 
-**Important:**  Look at your rendered markdown file before submitting!  :boom:  
+## Introduction
+### [What Is Markdown? 4 Reasons Why You Should Learn It Now](http://www.makeuseof.com/tag/markdown-4-reasons-learn-now/)  
+Markdown is a simple way to add formatting — like headers, bold/italic text, and lists — to plain text. Rather than relying on HTML or WYSIWYG editors, Markdown allows you to create full pages of formatted text without ever having to remove your fingers from the keyboard, and all in a way that’s much more intuitive than HTML.  
 
 ---
 
@@ -18,7 +28,6 @@ Markdown is a simple way to add formatting — like headers, bold/italic text, a
 [6)  Links](#section-f)  
 [7)  Block Code, Language-specific](#section-g)  
 [8)  Tables](#section-h)  
-[9)  Practice Examples](#section-i)  
 [References](#section-r)
 
 ---
@@ -51,9 +60,7 @@ Code for line separators:
 
 ```
 Rule #1 
-
 ---
-
 Rule #2
 *******
 Rule #3
@@ -99,7 +106,7 @@ Here's an inline link to [Google](http://www.google.com/).
 
 ## <a name="section-g"></a>7) Block Code, Language-specific 
 
-####python
+#### python
 
 Block code that is non-specific:  
 ```
@@ -113,7 +120,7 @@ print "hello world!"
 print "hello moon"
 ```
 
-####bash or console
+#### bash or console
 
 Block code that is non-specific:  
 ```
@@ -129,7 +136,7 @@ $ git remote -v
 $ ps awx | grep mongo
 ```
 
-####sql
+#### sql
 
 Block code that is non-specific:  
 ```
@@ -141,7 +148,7 @@ Block code that is **sql**-specific:
 SELECT * FROM Customers WHERE Country='Sweden';
 ```
 
-####Yes, this works for scores of other languages:  [Syntax highlighting in markdown](https://support.codebasehq.com/articles/tips-tricks/syntax-highlighting-in-markdown) 
+#### Yes, this works for scores of other languages:  [Syntax highlighting in markdown](https://support.codebasehq.com/articles/tips-tricks/syntax-highlighting-in-markdown) 
 
 ---
 
@@ -158,46 +165,6 @@ First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
-
----
-
-## <a name="section-i"></a>9) Practice Examples 
-
-####Data Science Trivia 
-
-####Q1.  
-What is the most installed language in the world?  
-- Python
-- SAS
-- R
-- Spark
-- Javascript
-
->>REPLACE THIS TEXT WITH YOUR RESPONSE
-
--
-
-####Q2.  
-In hypothesis testing, we use the t score when the sample size is < 30 and the populations SD is unknown; else we use the Z score. 
-What is the distribution of t-squared?
- * Normal
- * F
- * Chi-squared
- * Beta
- * Bivariate Normal
-
->>REPLACE THIS TEXT WITH YOUR RESPONSE
-
-***
-
-####Q3.  
-In the scikit-learn's official source repo, about how many issues are outstanding? (go ahead and check out their page)  
-1. 7  
-2. 70  
-3. 700  
-4. 7000  
-
->>REPLACE THIS TEXT WITH YOUR RESPONSE
 
 ---
 

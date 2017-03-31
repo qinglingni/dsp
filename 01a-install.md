@@ -42,7 +42,7 @@ cross-platform.
 
 ---
 
-###Q1. Python Version 2 or 3
+### Q1. Python Version 2 or 3
 
 **Course material for the bootcamp is compatible with Python versions 2.7 and 3.0. Python 3 is recommended and encouraged.**  
 
@@ -50,7 +50,7 @@ I installed Python 3 because it's recommended
 
 >> REPLACE THIS TEXT WITH YOUR RESPONSE
 
-###Q2. Which Python Version Installed   
+### Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 

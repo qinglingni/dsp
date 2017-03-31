@@ -1,21 +1,21 @@
-#Jupyter (IPython) Notebook:  Getting Started
+# Jupyter Notebook:  Getting Started
 The Jupyter notebook is an interactive computational environment, in which you can combine code, execution, rich text, mathematics, plots and rich media. 
 
 ---
 
-###[Install the Notebook](http://jupyter.readthedocs.io/en/latest/install.html)
+### [Install the Notebook](http://jupyter.readthedocs.io/en/latest/install.html)
 Installing Jupyter using Anaconda and conda:  
 For new users, we highly recommend [installing Anaconda](https://www.continuum.io/downloads). Anaconda conveniently installs Python, the Jupyter Notebook, and other commonly used packages for scientific computing and data science.  (Prereq: Python is installed.)
 ```console
 $ conda install jupyter
 ```
 
-###[Upgrade Jupyter Notebook](http://jupyter.readthedocs.io/en/latest/projects/upgrade-notebook.html)
+### [Upgrade Jupyter Notebook](http://jupyter.readthedocs.io/en/latest/projects/upgrade-notebook.html)
 ```bash
 $ conda update jupyter
 ```
 
-###Run the Notebook at Terminal Prompt  
+### Run the Notebook at Terminal Prompt  
 Note:  The notebook will open at the directory in which you launch the notebook on your terminal.  
 ```
 $ jupyter notebook
@@ -29,7 +29,7 @@ reshama$ jupyter notebook
 [I 11:41:22.769 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 ```
 
-###Shut Down the Juypter Notebook App
+### Shut Down the Juypter Notebook App
 At terminal prompt:  
  * control + c
  * type:  `y`
@@ -48,7 +48,7 @@ reshama$
 
 ---
 
-###Getting to Know Jupyter
+### Getting to Know Jupyter
 
 You can try out Jupyter on a browser without installing it.  
 https://try.jupyter.org/
