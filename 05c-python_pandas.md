@@ -39,7 +39,7 @@ Review the Jupyter Notebook [`1_pandas_jeopardy_example.ipynb`](python/pandas/1_
 * Make a copy of the notebook and name it `3_pandas_olive_answers_myname.ipynb`.  (Example:  my notebook would be called `3_pandas_olive_answers_reshama.ipynb`).
 * Update the header at the top by adding in your name and date.
 * Edit this notebook and complete the exercises.
-
+http://localhost:8889/notebooks/python/pandas/3_pandas_olive_questions_qni.ipynb
 ---
 
 ## Optional Pandas Topics:  To Explore Further
